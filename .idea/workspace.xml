@@ -15,7 +15,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,7 +29,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/classification_model&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/cls_model&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;
   }
@@ -148,6 +148,8 @@
       <workItem from="1700532331897" duration="6803000" />
       <workItem from="1700548284174" duration="1085000" />
       <workItem from="1700549386103" duration="5976000" />
+      <workItem from="1700555757937" duration="737000" />
+      <workItem from="1700557168490" duration="263000" />
     </task>
     <servers />
   </component>
