@@ -1,7 +1,7 @@
 label_str2int = {
-    'HGSC': 0,
-    'EC': 1,
-    'CC': 2,
-    'LGSC': 3,
-    'MC': 4
+    'label1': 0,
+    'label2': 1,
+    'label3': 2,
+    'label4': 3,
+    'label5': 4
 }

@@ -7,9 +7,9 @@ def get_config():
     config = ml_collections.ConfigDict()
 
     # dataset config
-    config.csv_path = "E:\\UBC-Ovarian-Cancer\\train_thumbnails_augs"
-    config.img_folder = "E:\\UBC-Ovarian-Cancer\\train_thumbnails"
-    config.aug_imgs_folder = "E:\\UBC-Ovarian-Cancer\\train_thumbnails_augs"
+    config.csv_path = ""
+    config.img_folder = ""
+    config.aug_imgs_folder = ""
     config.img_size = (224, 224)
     config.aug_imgs_num = 4
     config.split = 0.8
