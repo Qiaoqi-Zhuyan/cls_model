@@ -1,4 +1,7 @@
 import logging
+import os
+
+import os
 
 import torch
 from torch.utils.data import DataLoader, Dataset
@@ -10,14 +13,15 @@ from trainer import config, model
 from datas.build import CustomDataset_Origin, build_transform
 
 # logger
-logger_name = f"{config.model}.log"
-logger_save = f"{logger_name}"
+logger_name = f"{config.model_name}.log"
+logger_save_path = "labs/logger"
+logger_save = os.path.join(logger_save_path, logger_name)
 
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] %(message)s',
     handlers=[
-        logging.FileHandler(logger_name)
+        logging.FileHandler(logger_save)
     ]
 )
 logging.basicConfig(stream=None)

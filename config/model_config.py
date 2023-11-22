@@ -57,7 +57,7 @@ def get_config():
     config.lr = 1e-5
     config.weight_decay = 1e-4
     # select from:
-    # adam, adamw,
+    # adam, adamw, adam, sgd
     config.optimizer = "adam"
     config.momentum = 4e-3
 

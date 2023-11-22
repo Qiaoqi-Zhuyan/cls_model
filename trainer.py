@@ -25,16 +25,20 @@ config = get_config()
 
 
 # logger
-logger_name = f"{config.model}.log"
-logger_save = f"{logger_name}"
+logger_name = f"{config.model_name}.log"
+logger_save_path = "labs/logger"
+logger_save = os.path.join(logger_save_path, logger_name)
+
+
 
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] %(message)s',
     handlers=[
-        logging.FileHandler(logger_name)
+        logging.FileHandler(logger_save_path)
     ]
 )
+
 logging.basicConfig(stream=None)
 logger = logging.getLogger("training_logger")
 

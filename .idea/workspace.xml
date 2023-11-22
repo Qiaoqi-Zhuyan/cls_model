@@ -39,7 +39,7 @@
       <recent name="E:\classification_model\tools" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.model_config">
+  <component name="RunManager" selected="Python.trainer">
     <configuration name="get_mean_std" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="classification-model" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,8 +128,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="trainer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="classification-model" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trainer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.trainer" />
         <item itemvalue="Python.model_config" />
         <item itemvalue="Python.get_mean_std" />
         <item itemvalue="Python.img_randaugs" />
@@ -149,7 +172,8 @@
       <workItem from="1700548284174" duration="1085000" />
       <workItem from="1700549386103" duration="5976000" />
       <workItem from="1700555757937" duration="737000" />
-      <workItem from="1700557168490" duration="263000" />
+      <workItem from="1700557168490" duration="2956000" />
+      <workItem from="1700620500708" duration="755000" />
     </task>
     <servers />
   </component>
@@ -180,6 +204,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/classification_model$get_mean_std.coverage" NAME="get_mean_std Coverage Results" MODIFIED="1700462231258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datas" />
+    <SUITE FILE_PATH="coverage/cls_model$trainer.coverage" NAME="trainer Coverage Results" MODIFIED="1700621128264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/classification_model$img_randaugs.coverage" NAME="img-randaugs Coverage Results" MODIFIED="1700415606836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datas" />
     <SUITE FILE_PATH="coverage/classification_model$model_config.coverage" NAME="model_config Coverage Results" MODIFIED="1700536367901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
   </component>
